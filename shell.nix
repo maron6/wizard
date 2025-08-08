@@ -5,6 +5,10 @@ stdenv.mkDerivation {
   nativeBuildInputs = [
     rustc
     cargo
+	rustfmt
+	rust-analyzer
+	clippy
+	lldb
 
     # Example Build-time Additional Dependencies
     pkg-config
